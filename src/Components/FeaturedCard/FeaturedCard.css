@@ -1,0 +1,59 @@
+.featured-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFF;
+    box-shadow: 0px 0px 25px 0px rgba(173, 173, 173, 0.25);
+    padding: 30px 30px;
+    margin-top: 10px;
+}
+
+.featured-card-container:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.featured-card-container img {
+    max-width: 270px;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.featured-card-container div {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.featured-card-container .price {
+    font-family: 'Roboto';
+}
+
+.featured-card-container button {
+    background: none;
+    outline: none;
+    border: 0px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    color: #E21D2C;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+
+    .featured-card-container {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .featured-card-container {
+        width: 95%;
+    }
+
+}

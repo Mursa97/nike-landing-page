@@ -1,0 +1,63 @@
+.heritage-container {
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    gap: 130px;
+}
+
+.heritage-container p {
+    font-family: 'Roboto';
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.heritage-container h2 {
+    margin-top: -15px;
+}
+
+.heritage-container button {
+    margin: 15px 0 0 0;
+    background: none;
+    outline: none;
+    border: 0px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+    color: #E21D2C;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 992px) {
+
+    .heritage-container {
+        padding: 50px 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .heritage-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .heritage-container .left-side {
+        display: flex;
+        justify-content: center;
+    }
+
+    .heritage-container img {
+        max-width: 80%;
+    }
+    
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
